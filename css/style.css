@@ -1,2 +1,31 @@
 @charset "utf-8";
 
+/*header*/
+.header {
+  display: flex;
+  width: 1400px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 250px;
+  height: 49px;
+  margin-top: 25px;
+}
+
+.nav-list {
+  display: flex;
+  margin-top: 40px;
+}
+
+.nav-item {
+  margin-left: 40px;
+}
+
+/*main*/
+.kv-img {
+  height: 750px;
+  object-fit: cover;
+  object-position: top;
+}
